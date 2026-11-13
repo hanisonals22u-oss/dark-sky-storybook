@@ -1,6 +1,6 @@
 export const profile = {
-  name: "Alex Rivera",
-  firstName: "Alex",
+  name: "Hani",
+  firstName: "Hani",
   role: "Product Designer & Frontend Engineer",
   location: "Lisbon, Portugal",
   email: "hello@alexrivera.dev",

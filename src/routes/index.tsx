@@ -8,9 +8,9 @@ import portrait from "@/assets/portrait.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Rivera — Designer & Frontend Engineer" },
+      { title: "Hani — Designer & Frontend Engineer" },
       { name: "description", content: profile.tagline },
-      { property: "og:title", content: "Alex Rivera — Designer & Frontend Engineer" },
+      { property: "og:title", content: "Hani — Designer & Frontend Engineer" },
       { property: "og:description", content: profile.tagline },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
