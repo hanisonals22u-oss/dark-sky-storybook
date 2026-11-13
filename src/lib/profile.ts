@@ -1,7 +1,7 @@
 export const profile = {
   name: "Hani",
   firstName: "Hani",
-  role: "IT Student",
+  role: "IT student",
   email: "hello@hani.dev",
   availability: "Open to internships and projects",
   tagline:

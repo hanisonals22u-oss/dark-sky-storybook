@@ -48,7 +48,7 @@ function About() {
 
       <div className="mt-8 space-y-5 text-lg leading-relaxed text-muted-foreground animate-rise [animation-delay:160ms]">
         <p>
-          I'm {profile.name}, an {profile.role.toLowerCase()} with a habit of opening the hood.
+          I'm {profile.name}, an {profile.role} with a habit of opening the hood.
           Coursework gives me the theory; the projects I build after class are where it actually
           clicks.
         </p>
