@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Dark Sky Storybook
+
+Build a modern personal portfolio website with a hero section, an about me section, a skills grid, and a contact form. Use a clean dark theme.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://dark-sky-storybook.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/0135c5c9-b570-56e7-8cae-336976bd6e46).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
