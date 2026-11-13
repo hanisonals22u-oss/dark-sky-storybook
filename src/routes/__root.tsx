@@ -139,7 +139,7 @@ function RootComponent() {
         </main>
         <SiteFooter />
       </div>
-      <Toaster position="bottom-right" />
+      <Toaster theme="dark" position="bottom-right" />
     </QueryClientProvider>
   );
 }

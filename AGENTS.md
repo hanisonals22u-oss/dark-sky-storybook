@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Site chrome (header/footer/toaster) lives in `src/routes/__root.tsx`; each section (about, skills, contact) is its own route so it has its own URL and metadata.
+- Profile content and skill lists live in `src/lib/profile.ts`; pages read from it so copy changes happen in one place.
+- Contact form validation lives in `src/lib/contact-schema.ts` (zod) and is covered by `src/test/contact-schema.test.ts`.
