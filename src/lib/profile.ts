@@ -3,7 +3,7 @@ export const profile = {
   firstName: "Hani",
   role: "Product Designer & Frontend Engineer",
   location: "Lisbon, Portugal",
-  email: "hello@alexrivera.dev",
+  email: "hello@hani.dev",
   availability: "Available for new projects",
   tagline: "I design and build calm, considered interfaces for ambitious products.",
   socials: [
