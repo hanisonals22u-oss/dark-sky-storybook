@@ -47,7 +47,7 @@ function Contact() {
   };
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-clip">
       <div className="pointer-events-none absolute -right-40 top-0 h-[520px] w-[520px] rounded-full glow-orb" />
       <div className="relative mx-auto grid max-w-6xl gap-14 px-5 py-16 sm:px-8 lg:grid-cols-[1fr_1.2fr] lg:py-24">
         <div className="animate-rise">

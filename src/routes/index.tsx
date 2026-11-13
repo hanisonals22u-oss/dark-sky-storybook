@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <>
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-clip">
         <div className="pointer-events-none absolute inset-0 bg-grid" />
         <div className="pointer-events-none absolute -left-40 top-10 h-[480px] w-[480px] rounded-full glow-orb" />
 
