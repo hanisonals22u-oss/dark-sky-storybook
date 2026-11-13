@@ -20,10 +20,21 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm run build -- --base=/dark-sky-storybook/
+      - run: |
+          if [ -d "dist/client" ]; then
+            cp dist/client/index.html dist/client/404.html 2>/dev/null || true
+            mv dist/client pages_out
+          elif [ -d ".output/public" ]; then
+            cp .output/public/index.html .output/public/404.html 2>/dev/null || true
+            mv .output/public pages_out
+          else
+            cp dist/index.html dist/404.html 2>/dev/null || true
+            mv dist pages_out
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist
+          path: ./pages_out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
