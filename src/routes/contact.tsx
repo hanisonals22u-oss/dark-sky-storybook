@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -67,12 +67,6 @@ function Contact() {
               <a href={`mailto:${profile.email}`} className="transition-colors hover:text-primary">
                 {profile.email}
               </a>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center rounded-full border border-border bg-secondary">
-                <MapPin className="h-4 w-4 text-primary" />
-              </span>
-              <span>{profile.location}</span>
             </li>
           </ul>
         </div>

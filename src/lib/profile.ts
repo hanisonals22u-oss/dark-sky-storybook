@@ -1,20 +1,15 @@
 export const profile = {
   name: "Hani",
   firstName: "Hani",
-  role: "Product Designer & Frontend Engineer",
-  location: "Lisbon, Portugal",
+  role: "IT student",
   email: "hello@hani.dev",
-  availability: "Available for new projects",
-  tagline: "I design and build calm, considered interfaces for ambitious products.",
+  availability: "Open to internships and projects",
+  tagline:
+    "I'm an IT student who likes taking ideas apart, understanding how they work, and building them back on the web.",
   socials: [
     { label: "GitHub", href: "https://github.com" },
     { label: "LinkedIn", href: "https://linkedin.com" },
     { label: "Dribbble", href: "https://dribbble.com" },
-  ],
-  stats: [
-    { value: "8+", label: "Years shipping" },
-    { value: "60+", label: "Projects delivered" },
-    { value: "14", label: "Happy teams" },
   ],
 };
 
