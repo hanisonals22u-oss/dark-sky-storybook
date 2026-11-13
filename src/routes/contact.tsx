@@ -13,10 +13,10 @@ import { profile } from "@/lib/profile";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Alex Rivera" },
-      { name: "description", content: "Start a project or just say hello to Alex Rivera." },
-      { property: "og:title", content: "Contact — Alex Rivera" },
-      { property: "og:description", content: "Start a project or just say hello to Alex Rivera." },
+      { title: "Contact — Hani" },
+      { name: "description", content: "Start a project or just say hello to Hani." },
+      { property: "og:title", content: "Contact — Hani" },
+      { property: "og:description", content: "Start a project or just say hello to Hani." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

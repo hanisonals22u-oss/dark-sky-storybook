@@ -7,15 +7,15 @@ import portrait from "@/assets/portrait.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Alex Rivera" },
+      { title: "About — Hani" },
       {
         name: "description",
-        content: "The story, values and experience behind Alex Rivera's design and engineering work.",
+        content: "The story, values and experience behind Hani's design and engineering work.",
       },
-      { property: "og:title", content: "About — Alex Rivera" },
+      { property: "og:title", content: "About — Hani" },
       {
         property: "og:description",
-        content: "The story, values and experience behind Alex Rivera's design and engineering work.",
+        content: "The story, values and experience behind Hani's design and engineering work.",
       },
       { property: "og:type", content: "profile" },
       { name: "twitter:card", content: "summary_large_image" },

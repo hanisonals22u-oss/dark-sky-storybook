@@ -4,15 +4,15 @@ import { SkillsGrid } from "@/components/site/SkillsGrid";
 export const Route = createFileRoute("/skills")({
   head: () => ({
     meta: [
-      { title: "Skills — Alex Rivera" },
+      { title: "Skills — Hani" },
       {
         name: "description",
-        content: "Frontend, design, backend and tooling skills Alex Rivera brings to every project.",
+        content: "Frontend, design, backend and tooling skills Hani brings to every project.",
       },
-      { property: "og:title", content: "Skills — Alex Rivera" },
+      { property: "og:title", content: "Skills — Hani" },
       {
         property: "og:description",
-        content: "Frontend, design, backend and tooling skills Alex Rivera brings to every project.",
+        content: "Frontend, design, backend and tooling skills Hani brings to every project.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
